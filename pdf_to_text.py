@@ -57,7 +57,7 @@ def main():
     # Google Cloud 인증 설정
     # 환경 변수 GOOGLE_APPLICATION_CREDENTIALS에 서비스 계정 키 파일 경로 설정 필요
     # 예: os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "path/to/your/service-account-key.json"
-    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "C:/Users/fwdw9/Desktop/projects/book_ai/ocr-test-455304-8a40b6f34c98.json"
+    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "키 입력"
     pdf_path = "서유견문_etc.pdf"  # 입력 PDF 파일 경로
     output_file = "output_etc.txt"  # 출력 텍스트 파일 경로
     
